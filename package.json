@@ -1,0 +1,26 @@
+{
+  "name": "hain-plugin-producthunt",
+  "version": "0.0.1",
+  "description": "Hain plugin to search Product Hunt",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braunson/hain-plugin-producthunt.git"
+  },
+  "author": "Braunson Yager",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/Braunson/hain-plugin-producthunt/issues"
+  },
+  "homepage": "https://github.com/Braunson/hain-plugin-producthunt.git",
+  "hain": {
+    "prefix": "/ph",
+    "usage": "type /ph to search Product Hunt",
+    "icon": "/icon.png",
+    "redirect": "/ph "
+  }
+}
